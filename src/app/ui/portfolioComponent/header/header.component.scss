@@ -1,0 +1,98 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  .web {
+      display: flex;
+      position: relative;
+
+  }
+
+  h1 {
+      position: absolute;
+      background-color: transparent;
+
+  }
+
+  #one {
+      color: transparent;
+      -webkit-text-stroke: 1px #000000;
+
+  }
+
+  #two {
+      color: #AC5BC8;
+      animation: animate 4s ease-in-out infinite;
+  }
+
+
+
+
+  p{
+      font-size: xx-large;
+  }
+  h2{
+      margin-top: 60px;
+  }
+  img{
+      width: 400px;
+      height: auto;
+      padding-right: 50px;
+  }
+  #dark{
+      display: none;
+  }
+  .buttons{
+      padding-top: 20px;
+  }
+  .buttons button{
+      border: none;
+      padding: 5px 30px;
+      border-radius: 16px;
+  }
+  button:hover{
+      opacity: 0.8;
+      cursor: pointer;
+  }
+  .hireme{
+      background-color: #AC5BC8;
+      font-size: 10px;
+  }
+  h4{
+      margin-top: 10px;
+  }
+  .dwldcv{
+      background-color: #ebebeb;
+      color: black;
+      padding-left: 30px;
+      font-size: 10px;
+  }
+
+}
+@keyframes animate {
+  0%, 100% {
+      clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+  }
+  50% {
+      clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+  }
+}
+.name{
+  padding-top: 40px;
+  h4{
+      background-color: #AC5BC8;
+      padding: 2px 3px;
+      border-radius: 5px;
+  }
+  h1{
+      font-size: 60px;
+      color: #AC5BC8;
+  }
+  h2{
+      font-weight: 600;
+      font-size: 35px;
+  }
+}

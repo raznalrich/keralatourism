@@ -1,0 +1,35 @@
+.aboutsection{
+  display: flex;
+  padding-top: 100px;
+
+  .aboutimage{
+
+
+      .aboutbackground{
+          width: 380px;
+          height: auto;
+
+      }
+
+
+  }
+
+  .aboutdetails{
+      margin-left: 30px;
+      .abouttagline{
+          font-size: smaller;
+          padding-top: 10px;
+      }
+      .fullprogress{
+          height: 4px;
+          background-color: #ebebeb;
+          width: 100%;
+
+          margin-top: 10px;
+          .progress{
+              height: 4px;
+              background-color: #AC5BC8;
+          }
+      }
+  }
+}

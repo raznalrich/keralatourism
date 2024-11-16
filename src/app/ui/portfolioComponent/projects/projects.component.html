@@ -1,0 +1,17 @@
+<section class="projects" id="projects">
+  <p>PROJECTS</p>
+  <h2>Latest Projects</h2>
+  <div class="underline"></div>
+  <div class="projectlist" id="projectlist">
+    @for (item of project; track item.image) {
+      <img class="carousel" src={{item.image}} alt="" >
+    }
+      
+  </div>
+  <div class="arrows">
+
+      <button class="leftarrow" id="leftarrow" onclick="right()"><p>←</p></button>
+      <button class="rightarrow" id="rightarrow" onclick="left()"><p>→</p></button>
+  </div>
+
+</section>

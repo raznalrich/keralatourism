@@ -1,0 +1,59 @@
+.contactus{
+  padding-top: 30px;
+  text-align: center;
+  p{
+      font-size: smaller;
+  }
+  h3{
+      color: #AC5BC8;
+  }
+  .saperatecontact{
+      margin-top: 30px;
+      display: flex;
+
+      .form{
+          padding-left: 30px;
+          padding-right: 50px;
+      }
+      input{
+          width: 100%;
+          background-color: #ebebeb;
+          border-radius: 52px;
+          color: black;
+          padding: 5px;
+          padding-left: 14px;
+          margin-top: 10px;
+      }
+      button{
+          background-color: #AC5BC8;
+          color:#ebebeb;
+          border: none;
+          padding: 5px 20px;
+          border-radius: 52px;
+          margin-top: 20px;
+          display: flex;
+
+      }
+      textarea{
+          width: 100%;
+          background-color: #ebebeb;
+          border-radius: 12px;
+          color: black;
+          padding: 5px;
+          padding-left: 14px;
+          margin-top: 10px;
+
+
+      }
+      .personaldetails{
+          padding-top: 20px;
+          h4{
+              padding-top: 20px;
+          }
+          p{
+              padding-left: 30px;
+              padding-right: 30px;
+          }
+      }
+  }
+}

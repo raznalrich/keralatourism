@@ -1,0 +1,15 @@
+.cardbodycontent{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.cardbody{
+  display: grid;
+  grid-template-columns: repeat(4,2fr);
+  grid-template-rows: repeat(3,  2fr);
+  gap: 10px;
+}
+app-card{
+  &:hover{
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
+  }
+}

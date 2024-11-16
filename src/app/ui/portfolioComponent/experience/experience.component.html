@@ -1,0 +1,24 @@
+<section class="experience" id="experience">
+
+  <h2>Experience</h2>
+  <div class="underline"></div>
+  <div class="experiencelist">
+    @for (item of experience; track item.position) {
+      <div class="listone">
+        <div class="dateofjoin">
+            <h4>{{item.date}}</h4>
+        </div>
+        <div class="timelineicon">
+            <div class="circle"></div>
+            <div class="line"></div>
+        </div>
+        <div class="expdetails">
+            <h4>{{item.position}}</h4>
+            <p>{{item.company}}</p>
+        </div>
+    </div>
+    }
+      
+
+  </div>
+</section>

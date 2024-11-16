@@ -1,0 +1,41 @@
+.experience{
+  margin-top: 50px;
+  .underline{
+      height: 4px;
+      margin-top: 10px;
+      background-color: #AC5BC8;
+      width: 150px;
+
+
+  }
+  .experiencelist{
+      margin-top: 10px;
+  }
+  .listone{
+      display: flex;
+      /* padding-top: 10px; */
+      .dateofjoin{
+          width: 200px;
+      }
+
+      .circle{
+          background-color: #AC5BC8;
+          height: 10px;
+          width: 10px;
+          border-radius: 50px;
+      }
+      .line{
+          background-color: #ebebeb;
+          height: 30px;
+          width: 2px;
+          margin-left: 4px;
+
+      }
+      .expdetails{
+          margin-left: 40px;
+          p{
+              color: #AC5BC8;
+          }
+      }
+  }
+}

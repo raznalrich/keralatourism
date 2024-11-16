@@ -1,0 +1,28 @@
+.education{
+  margin-top: 50px;
+  .underline{
+      height: 4px;
+      margin-top: 10px;
+      background-color: #AC5BC8;
+      width: 150px;
+
+
+  }
+  .educationlist{
+      display: flex;
+      padding-top: 30px;
+      .yearofad{
+          width: 200px;
+          background-color: #ebebeb;
+          color:#AC5BC8;
+          font-weight: bolder;
+          text-align: center;
+          border-radius: 20px;
+
+          padding: 5px 20px;
+      }
+      h4{
+          margin-left: 30px;
+      }
+  }
+}

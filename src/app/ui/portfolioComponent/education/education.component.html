@@ -1,0 +1,11 @@
+<section class="education" id="education">
+  <h2>Education</h2>
+  <div class="underline"></div>
+  @for (item of education; track item.date) {
+    <div class="educationlist">
+      <div class="yearofad">{{item.date}}</div>
+      <h4>{{item.school}}</h4>
+  </div>
+  }
+  
+</section>

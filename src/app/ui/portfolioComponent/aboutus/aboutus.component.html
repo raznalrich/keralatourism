@@ -1,0 +1,24 @@
+<section class="aboutsection" id="aboutsection">
+  <div class="aboutimage">
+      <img class="aboutbackground" src="images/Group 2 (2).png" alt="" >
+
+  </div>
+  <div class="aboutdetails">
+<p>ABOUT US</p>
+<h2>Why you should hire me ?</h2>
+<p class="abouttagline">An Enthusiastic and organized individual with a strong foundation in programming
+and problem-solving, Eager to kick Start a career in Software Development and
+passionate about staying up to date with emerging technologies .
+
+</p>
+<br>
+
+@for (item of program; track item.language) {
+  <h3>{{item.language}}</h3>
+<div class="fullprogress">
+  <div class="progress" [ngStyle]="{ width: item.progress }"></div>
+</div>
+}
+
+  </div>
+</section>

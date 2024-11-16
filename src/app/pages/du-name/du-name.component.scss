@@ -1,0 +1,43 @@
+.cardbodycontent{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.cardbody{
+  display: flex;
+  // grid-template-columns: repeat(4,2fr);
+  // grid-template-rows: repeat(3,  2fr);
+  gap: 10px;
+  overflow-x: scroll;
+}
+app-card{
+  &:hover{
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
+  }
+
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+

@@ -1,0 +1,29 @@
+<h1><span style="color: red;">Experion</span> Mart</h1>
+<hr>
+
+<!-- <div class="cardbody">
+
+
+  @for (item of data; track item.image) {
+    <app-productcard [cards]="item"></app-productcard>
+  }
+
+</div> -->
+
+@for (item1 of categories; track item1.categories) {
+  <h2>{{item1}}</h2>
+    <hr>
+  <!-- <div class="cardbody"> -->
+<app-slider cat = {{item1}}></app-slider>
+
+    <!-- @for (item of data; track item.image) {
+      @if (item.category == item1) {
+        <app-productcard [cards]="item"></app-productcard>
+      }
+
+    } -->
+
+  <!-- </div> -->
+}
+<!-- <app-slider></app-slider> -->
+

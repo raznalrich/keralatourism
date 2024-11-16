@@ -1,0 +1,70 @@
+.projects{
+  margin-top: 50px;
+  .underline{
+      height: 4px;
+      margin-top: 10px;
+      background-color: #AC5BC8;
+      width: 150px;
+
+
+  }
+  .projectlist{
+      display: flex;
+   overflow-x: scroll;
+   scrollbar-width: none;
+      margin-top: 20px;
+      gap: 3rem;
+     position: relative;
+
+      img{
+          width: 200px;
+          height: auto;
+          transition: transform 0.5s;
+          /* transform: translateX(-100px); */
+      }
+
+  }
+  .arrows{
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      bottom: 118px;
+      background-color: transparent;
+  }
+  .leftarrow{
+      background-color: #ebebeb;
+     cursor: pointer;
+     position: relative;
+     right: 62px;
+      height: 50px;
+      width: 50px;
+      border-radius: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      p{
+          background-color: #ebebeb;
+          color: black;
+          font-size: 30px;
+      }
+  }
+  .rightarrow{
+      background-color: #ebebeb;
+      position: relative;
+      cursor: pointer;
+      left: 62px;
+      height: 50px;
+      width: 50px;
+      border-radius: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      p{
+          background-color: #ebebeb;
+          color: black;
+          font-size: 30px;
+      }
+  }
+
+}
